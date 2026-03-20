@@ -2,8 +2,6 @@
 
 **End-to-end analysis of 40,230 skincare orders across 8 channels and 10 Indian states using Excel, SQL, and Power BI to surface revenue patterns, return drivers, and discount strategy.**
 
-![Dashboard Overview](images/Overview.png)
-
 ---
 
 ## Tools Used
@@ -14,7 +12,7 @@ Microsoft Excel · SQL (MySQL) · Power BI (DAX, 15+ visuals)
 ## Dataset
 - Source: India D2C Skincare Sales dataset
 - Records: 40,230 orders · 24 columns
-- File: `Skincare.csv`
+- ![File](Skincare.xls)
 
 ---
 
@@ -48,8 +46,9 @@ Microsoft Excel · SQL (MySQL) · Power BI (DAX, 15+ visuals)
 - Window functions — RANK() OVER PARTITION BY category
 - Top hero ingredients by gross margin %
 
-See ` [Skincare.sql](https://github.com/user-attachments/files/26139765/Skincare.sql)
- ` for all queries with results.
+See  
+![Skincare sql](Skincare.sql)
+  for all queries with results.
 
 ---
 
@@ -73,6 +72,6 @@ See ` [Skincare.sql](https://github.com/user-attachments/files/26139765/Skincare
 
 | File | Description |
 |------|-------------|
-| `Skincare.csv` | Full dataset — 40,230 records, 24 columns |
-| `skincare_queries.sql` | All 10 SQL queries with business context |
+| `Skincare.xls` | Full dataset — 40,230 records, 24 columns |
+| `Skincare.sql` | All 10 SQL queries with business context |
 | `images/` | All 4 dashboard page screenshots |
